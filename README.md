@@ -1,4 +1,3 @@
 # Matlab code of mantis behavior
-The first one is Phyllothelys werneri
 
-In Chinese '魏氏'='ws'
+The first project is the behavior of Phyllothelys werneri, in the folder named 'ws'. ( In Chinese 'ws'='魏氏' )
