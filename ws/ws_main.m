@@ -103,19 +103,19 @@ for k=1:231 %k表示该帧图像对应序号
     
     
     
-    %     %二值图转RGB
-    %     b=zeros(140,110,3,231);
-    %     b(:,:,1,k)=pic(:,:,k);
-    %     b(:,:,2,k)=pic(:,:,k);
-    %     b(:,:,3,k)=pic(:,:,k);
-    %     withpoint=zeros(140,110,3,231);
-    %     %制作黑白版绿圈gif底图
-    %     pos=[h2(k),h1(k);jt2(k),jt1(k);tz2(k),tz1(k);pp2(k),pp1(k);jj2(k),jj1(k);hj2(k),hj1(k)];
-    %     withpoint(:,:,:,k)=insertMarker(b(:,:,:,k),pos,'o','size',2);
-    %     imwrite(withpoint(:,:,:,k),strcat(num2str(k),'.bmp'),'bmp');    %保存帧
+    %二值图转RGB
+    b=zeros(140,110,3,231);
+    b(:,:,1,k)=pic(:,:,k);
+    b(:,:,2,k)=pic(:,:,k);
+    b(:,:,3,k)=pic(:,:,k);
+    withpoint=zeros(140,110,3,231);
+    %制作黑白版绿圈gif底图
+    pos=[h2(k),h1(k);jt2(k),jt1(k);tz2(k),tz1(k);pp2(k),pp1(k);jj2(k),jj1(k);hj2(k),hj1(k)];
+    withpoint(:,:,:,k)=insertMarker(b(:,:,:,k),pos,'o','size',2);
+    imwrite(withpoint(:,:,:,k),strcat(num2str(k),'.bmp'),'bmp');    %保存帧
     
-    %     %制作彩板绿圈gif底图
-    %     pos=[h2(k)+50,h1(k)+100;jt2(k)+50,jt1(k)+100;tz2(k)+50,tz1(k)+100;pp2(k)+50,pp1(k)+100;jj2(k)+50,jj1(k)+100;hj2(k)+50,hj1(k)+100];
-    %     withpoint(:,:,:,k)=insertMarker(frame0,pos,'o','size',2);
-    %     imwrite(withpoint(:,:,:,k),strcat(num2str(k),'.bmp'),'bmp');    %保存帧
+    %制作彩板绿圈gif底图
+    pos=[h2(k)+50,h1(k)+100;jt2(k)+50,jt1(k)+100;tz2(k)+50,tz1(k)+100;pp2(k)+50,pp1(k)+100;jj2(k)+50,jj1(k)+100;hj2(k)+50,hj1(k)+100];
+    withpoint(:,:,:,k)=insertMarker(frame0,pos,'o','size',2);
+    imwrite(withpoint(:,:,:,k),strcat(num2str(k),'.bmp'),'bmp');    %保存帧
 end
