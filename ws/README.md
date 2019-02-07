@@ -2,13 +2,13 @@ The main file is to calc the behavior of Phyllothelys werneri, which imitates th
 
   The files: 
     
-    gif.m             transform the images into a gif
+    gif.m             transforms the images into a gif
   
-    video.m           transform the images into a video
+    video.m           transforms the images into a video
     
-    ws_main.m         extract the main points of the mantis
+    ws_main.m         extracts the main points of the mantis
   
-    ws_calc.m         calculate the data
+    ws_calc.m         calculates the data
 
     location.mat      the main points of the mantis
     
