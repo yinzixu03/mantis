@@ -2,10 +2,14 @@ The main file is to calc the behavior of Phyllothelys werneri, which imitates th
 
   The files: 
   
-    ws_main.m  extract the main points of the mantis
+    ws_main.m         extract the main points of the mantis
   
-    ws_calc.m  calculate the data
+    ws_calc.m         calculate the data
   
-    gif.m      transform the images into a gif
+    gif.m             transform the images into a gif
   
-    video.m    transform the images into a video
+    video.m           transform the images into a video
+
+    location.mat      the main points of the mantis
+    
+    cfit_Fourier.mat  the results calculated by cftool
