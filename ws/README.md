@@ -1,20 +1,19 @@
-The main file is to calc the behavior of Phyllothelys werneri, which imitates the leaves.
+Calculation of the swaying behavior of Phyllothelys werneri  
+====
+Here's the behavior:  
+![](original.gif)  
 
-  The files: 
-    
-    gif.m             transforms the images into a gif
+
+
+
+
+  The files:  
   
-    video.m           transforms the images into a video
-    
-    ws_main.m         extracts the main points of the mantis
-  
-    ws_calc.m         calculates the data
-
-    location.mat      the main points of the mantis
-    
-    cfit_Fourier.mat  the results calculated by cftool
-
-![](https://github.com/yinzixu03/mantis/raw/ws/original.gif)
-
-
-![](https://github.com/yinzixu03/mantis/raw/ws/points.gif)
+    gif.m             transforms the images into a gif  
+    video.m           transforms the images into a video  
+    ws_main.m         extracts the main points of the mantis  
+    ws_calc.m         calculates the data  
+    location.mat      the main points of the mantis  
+    cfit_Fourier.mat  the results calculated by cftool  
+![](original.gif)  
+![](points.gif)  
