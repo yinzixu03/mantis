@@ -13,3 +13,8 @@ The main file is to calc the behavior of Phyllothelys werneri, which imitates th
     location.mat      the main points of the mantis
     
     cfit_Fourier.mat  the results calculated by cftool
+
+![](https://github.com/yinzixu03/mantis/raw/ws/original.gif)
+
+
+![](https://github.com/yinzixu03/mantis/raw/ws/points.gif)
