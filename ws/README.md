@@ -1,6 +1,6 @@
 Calculation of the swaying behavior of Phyllothelys werneri  
 =
-Here's the behavior:  
+Here's the behavior:  [Original Link](https://www.facebook.com/groups/660036657442290/permalink/1322620137850602/)
 ![](data/original.gif)  
 
 Step 1:  
