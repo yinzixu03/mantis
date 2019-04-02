@@ -6,6 +6,7 @@ Here's the behavior:
 Step 1:  
 -
 The original video was transformed into binary images. The sticks and mantis can be seen clearly this time.  
+(single-level thresholding segmentation)
 ![](data/binary.gif)  
 
 Step 2:  
