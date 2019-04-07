@@ -1,5 +1,5 @@
 clc;clear all;close all;
-fileName = 'D:\mantis\wsvideo\ws.mp4';
+fileName = 'data\ws.mp4';
 obj = VideoReader(fileName);
 
 %每秒对应19.9176帧，根据视频取前11.6秒数据，即231帧
